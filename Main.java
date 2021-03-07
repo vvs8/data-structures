@@ -15,7 +15,13 @@ class Main {
     
     
     //List-Based Queue
-    
+    ListQueue testQ = new ListQueue();
+    testQ.enqueue('a');
+    testQ.enqueue('b');
+    testQ.enqueue('c');
+    System.out.println(testQ.dequeue());
+    System.out.println(testQ.dequeue());
+    System.out.println(testQ.dequeue());
     
     
   }
