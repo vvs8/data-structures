@@ -10,7 +10,6 @@ class NodeQ {
 }
 
 
-
 class ListQueue {
   protected NodeQ head;
   protected NodeQ tail;
