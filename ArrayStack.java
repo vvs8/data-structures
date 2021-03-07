@@ -1,9 +1,12 @@
-public class ArrayStack {
-  class ArrayStack<Integer> {
+class ArrayStack<Integer> {
     protected int capacity;
     public static final int DEFAULTCAPACITY = 1000;
     protected int elements[];
     protected int top = -1;
+
+    public ArrayStack() {
+      this(DEFAULTCAPACITY);
+    }
 
     public ArrayStack(int cap) {
       capacity = cap;
@@ -39,7 +42,5 @@ public class ArrayStack {
       return element;
     }
 
-  }
-  
 }
 
